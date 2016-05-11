@@ -1,0 +1,87 @@
+
+    /*modifications*/
+
+.cover_image {
+text-align: center;
+margin-top: 70px;
+}
+
+#logo_head {
+  max-width: 420px;
+  margin-top: -40px;
+  margin-bottom: -79px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#timeline_logo {
+  max-width: 420px;
+}
+
+
+
+@media only screen and (max-width: 590px) {
+  #horiz {
+    display: none;
+  }
+  #logo_head {
+    margin-bottom: 5px;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 591px) {
+  #vert {
+    display: none;
+  }
+}
+
+
+   /*sizing for pointy slide show on Students Take Action*/
+
+#show1_ctr {
+  /*margin: 0px;*/
+  text-align: center;
+}
+
+#slides_holder {
+text-align: center;
+}
+
+
+   #slides {
+    width: 95%;
+    height: 490px;
+    margin-top: 70px;
+}
+
+
+.top_ctr {
+  text-align: center;
+}
+
+     /*Join Other Schools Page*/
+
+     #schools_pic_lg {
+
+     width: 100%;
+     max-width: 900px;
+     margin-top: 70px;
+     }
+
+@media only screen and (min-width: 491px) {
+    #schools_pic_sm {
+      display: none;
+    }
+}
+
+    @media only screen and (max-width: 490px) {
+      #schools_pic_lg {
+        display: none;
+      }
+        #schools_pic_sm {
+          width: 90%;
+        }
+    }
